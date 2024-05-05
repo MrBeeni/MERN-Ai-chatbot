@@ -3,9 +3,7 @@ import {
   getAllUsers,
   userLogin,
   userSignup,
-  // userLogin,
   // userLogout,
-  // userSignup,
   // verifyUser,
 } from "../controllers/user-controllers.js";
 import {
@@ -13,11 +11,6 @@ import {
   signupValidator,
   validate,
 } from "../utils/validators.js";
-// import {
-//   loginValidator,
-//   signupValidator,
-//   validate,
-// } from "../utils/validators.js";
 // import { verifyToken } from "../utils/token-manager.js";
 
 const userRoutes = Router();
